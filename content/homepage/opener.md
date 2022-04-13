@@ -6,4 +6,4 @@ Como sabemos, la gestación es el período de tiempo comprendido entre la concep
 
 En la actualidad, desde las sociedades occidentales, muchas veces este proceso de la vida se transita en soledad, o rodeada sólo de aquellas personas más allegadas. Puede ser difícil para quien también se está gestando como mamá, encontrarse acompañada y sostenida por una red de apoyo. Así aparecen muchas sensaciones, preguntas, dudas, e incertidumbres, que a veces no son tan fáciles de responder y procesar. 
 
-Como psicólogas, cómo hermanas y como madres que vivimos este proceso de gestación, abrimos este espacio de acompañamiento a mujeres gestantes, con el propósito de que sea un espacio para compartir con otras.
+Como psicólogas, cómo hermanas y como madres que vivimos este proceso de gestación creamos Umami. Un espacio de acompañamiento a mujeres gestantes, con el propósito de que sea tu lugar para compartir con otras.

@@ -6,15 +6,17 @@ header_menu: true
 
 Encuentros grupales de acompañamiento a mujeres gestantes, destinado a mujeres en su primer o segundo trimestre de embarazo. 
 
-Te invitamos a ser parte de un grupo de mujeres embarazadas, que será guiado por dos psicólogas, con el propósito de tejer entre todas un espacio de acompañamiento, cuidado, escucha y sostén en la gestación. 
+Te invitamos a ser parte de un grupo de mujeres embarazadas, que será guiado por dos psicólogas, con el propósito de tejer entre todas un espacio de acompañamiento, cuidado, escucha y sostén. 
 
 ---
 
 ##### ¿CÓMO?
 
-Los encuentros serán de forma virtual, con frecuencia quincenal. Para ello hemos diseñado pequeños ciclos dónde compartiremos diferentes temáticas y actividades que entendemos atraviesan la gestación. 
-Nos proponemos desde estos encuentros poder acompañarnos desde la diversidad de experiencias y saberes, desde la sororidad y la empatía. Habilitando un tiempo-espacio para que puedas conectar contigo, con el/la bebé, y con todas las mujeres que habitemos el círculo. 
-Construyendo un espacio de co-cuidado dónde puedas expresar tus sentires y vivenciar propuestas que contribuyan a una gestación saludable.
+Mediante encuentros semanales de dos horas de duración, los cuales serán de manera virtual. Para ello hemos diseñado pequeños ciclos dónde compartiremos diferentes temáticas y actividades que entendemos atraviesan y pueden nutrir el proceso de gestación. 
+
+Nos proponemos desde estos encuentros poder acompañarnos desde la diversidad de experiencias y saberes, desde la sororidad y la empatía. Habilitando un tiempo-espacio para que puedas conectar contigo, con el/la bebé y con todas las mujeres que habitemos la tribu. 
+
+Construyendo un espacio de co-cuidado y respeto, dónde puedas expresar tus sentires, evacuar dudas, y vivenciar propuestas que contribuyan a una gestación saludable.
 
 ---
 
