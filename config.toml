@@ -2,6 +2,8 @@ baseURL = "https://mrichart.github.io/umami/"
 
 publishDir = "docs"
 
+googleAnalytics = "G-8Z90F85H6N"
+
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
