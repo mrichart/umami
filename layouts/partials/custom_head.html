@@ -1,8 +1,9 @@
 <!-- A partial to be overwritten by the user.
      Its content will appear before the closing </head>-tag -->
 
-{{ template "_internal/google_analytics.html" . }}
-
+{{ if .Site.Params.GoogleAnalyticsID }}
+  {{ partial "analytics-gtag.html" . }}
+{{ end }}
 
 <!-- Custom CSS via inline styles
      You may use this template to add custom CSS to your site like so: -->
@@ -71,11 +72,12 @@
 <!-- Custom link-tags for different icons
      Generated via https://favicon.io/favicon-generator/ -->
 
-<link
+<!--<link
   rel="apple-touch-icon"
   sizes="180x180"
   href="{{ "images/apple-touch-icon.png" | absURL }}"
-/>
+  />-->
+
 <link
   rel="icon"
   type="image/png"
