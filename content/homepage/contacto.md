@@ -1,8 +1,10 @@
 ---
 title: "Contacto"
-weight: 4
+weight: 5
 header_menu: true
 ---
+
+Por mas información e inscripciones a los encuentros escribenos!!
 
 {{<icon class="fa fa-envelope">}}&nbsp;[umamitribu@gmail.com](mailto:umamitribu@gmail.com)
 
