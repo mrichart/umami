@@ -2,6 +2,7 @@
 title: "Nuestra propuesta"
 weight: 2
 header_menu: true
+
 ---
 
 Encuentros grupales de acompañamiento a mujeres gestantes, destinado a mujeres en su primer o segundo trimestre de embarazo. 
