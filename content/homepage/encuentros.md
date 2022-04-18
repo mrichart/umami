@@ -1,12 +1,15 @@
 ---
 title: "Próximos encuentros"
 weight: 3
-header_menu: true
+header_menu: true  
 ---
 
-&nbsp;
-#### CICLOS DE ENCUENTROS LUNARES
-&nbsp;
+La propuesta está organizada en 4 ciclos de 3 encuentros cada uno.  El primer ciclo de encuentros comienza en Junio 2022.  
+
+#### Ciclo Lunar de mujeres gestantes en Tribu
+ 
+Se sugiere que puedas ir participando en cada ciclo para completar el ciclo lunar, de esta manera podrás haber enriquecido tu gestación desde la consciencia y el acompañamiento de una tribu que sentirás como cercana y de sostén.
+
 ##### Ciclo 1: CUARTO MENGUANTE  
 1° Encuentro: EL CÍRCULO DE APERTURA   
 La maternidad como transformación.  
@@ -31,7 +34,7 @@ Mandatos sociales, herencias sistémicas y patrones personales que cuestionar y 
 6° Encuentro: GESTACIÓN, CUIDADOS Y GOCE.  
 Maternidad como autocuidado y goce.  
 &nbsp;
-##### Ciclo 3: LUNA NUEVA  
+##### Ciclo 3: CUARTO CRECIENTE   
 7° Encuentro: MATERNAR EN TRIBU  
 La maternidad en comunión.  
 Pareja y/o red de apoyo.  
@@ -53,4 +56,3 @@ Se compone por:
 Espacios de acompañamiento individual y/o en pareja/ compañía  para la preparación para el nacimiento.  
 Espacios para encuentros grupales con temáticas de intereses sugeridos.  
 
-Se sugiere que puedas ir participando en cada ciclo para completar el ciclo lunar, de esta manera podrás haber enriquecido tu gestación desde la consciencia y el acompañamiento de una tribu que sentirás como cercana y de sostén.
