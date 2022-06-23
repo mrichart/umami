@@ -5,7 +5,7 @@ header_menu: true
 
 ---
 
-Encuentros grupales de acompañamiento a mujeres gestantes, destinado a mujeres en su primer o segundo trimestre de embarazo. 
+Encuentros grupales de acompañamiento a mujeres gestantes.
 
 Te invitamos a ser parte de un grupo de mujeres embarazadas, que será guiado por dos psicólogas, con el propósito de tejer entre todas un espacio de acompañamiento, cuidado, escucha y sostén. 
 

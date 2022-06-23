@@ -1,58 +1,40 @@
 ---
-title: "Próximos encuentros"
+title: "Próximos encuentros 2022"
 weight: 3
 header_menu: true  
 ---
 
-La propuesta está organizada en 4 ciclos de 3 encuentros cada uno.  El primer ciclo de encuentros comienza en Junio 2022.  
+La propuesta está organizada en ciclos de 3 encuentros cada uno. Los encuentros son en modalidad virtual los días sábado en el horario de 10:30 a 12:30 horas. 
 
-#### Ciclo Lunar de mujeres gestantes en Tribu
- 
-Se sugiere que puedas ir participando en cada ciclo para completar el ciclo lunar, de esta manera podrás haber enriquecido tu gestación desde la consciencia y el acompañamiento de una tribu que sentirás como cercana y de sostén.
+El primer ciclo de encuentros se realizó durante junio pero aún puedes sumarte al ciclo de julio.
 
-##### Ciclo 1: CUARTO MENGUANTE  
-1° Encuentro: EL CÍRCULO DE APERTURA   
+#### ~~Ciclo 1: Junio 2022~~
+1° Encuentro  
 La maternidad como transformación.  
 Cambios a nivel corporal, emocional y psicológico.  
 
-2° Encuentro: LA CONEXIÓN CON MI CUERPO Y MIS EMOCIONES  
+2° Encuentro  
 La maternidad como acogimiento sagrado.  
 Conexión con mi cuerpo y emociones a través de ejercicios.  
 
-3° Encuentro: LA MATERNIDAD Y MI LINAJE FEMENINO  
+3° Encuentro  
 La  maternidad ancestral.  
 Honrar la madre que habita en mí.  
 &nbsp;
-##### Ciclo 2: LUNA NUEVA  
-4° Encuentro: EL VÍNCULO MAMÁ - BEBÉ  
-La maternidad creativa.  
-Conecto con mi bebé.  
+#### Ciclo 2: Julio 2022 (comienzo sábado 2 de julio) {#ciclo-2}
+1° Encuentro  
+El contacto con el/la bebé.
+Proyecciones, deseos y realidad.
 
-5° Encuentro: GESTACIONES DESOBEDIENTES  
-Mandatos sociales, herencias sistémicas y patrones personales que cuestionar y soltar. La construcción de tu propia forma de maternar.  
+2° Encuentro  
+La importancia del vínculo prenatal consciente, y las formas de comunicación mamá-bebé.
 
-6° Encuentro: GESTACIÓN, CUIDADOS Y GOCE.  
-Maternidad como autocuidado y goce.  
+3° Encuentro  
+El cuidado de quienes gestan, y el rol de la pareja-acompañante en el embarazo consciente.  
 &nbsp;
-##### Ciclo 3: CUARTO CRECIENTE   
-7° Encuentro: MATERNAR EN TRIBU  
-La maternidad en comunión.  
-Pareja y/o red de apoyo.  
-
-8° Encuentro: PREPARÁNDOME AL NACIMIENTO  
-Técnicas de afirmación positiva para el parto.  
-Musicoterapia y aromaterapia.  
-Derechos a la hora de parir.  
-             
-9° Encuentro: EL DESPUÉS POST PARTO Y PUERPERIO  
-La maternidad consciente y en tribu.  
-Cierre del ciclo lunar.  
+#### Ciclo 3: Agosto 2022  
+Más información próximamente.
 &nbsp;
-##### Ciclo 4: LUNA LLENA  
-Este ciclo es abierto para toda aquella mujer que resuene y lo elija.  
-Abre la posibilidad de dar continuidad grupal y/o la posibilidad de incorporar a aquellas personas de tu red de sostén que sientas.  
-
-Se compone por:  
-Espacios de acompañamiento individual y/o en pareja/ compañía  para la preparación para el nacimiento.  
-Espacios para encuentros grupales con temáticas de intereses sugeridos.  
+#### Ciclo 4: Setiembre 2022  
+Más información próximamente.
 
