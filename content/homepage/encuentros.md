@@ -3,38 +3,33 @@ title: "Próximos encuentros 2022"
 weight: 3
 header_menu: true  
 ---
+En agosto damos inicio a una tercer edición del ciclo de Mujeres Gestantes en Tribu, donde a través de 5 encuentros  (2 en agosto y 3 en setiembre) nos reuniremos para compartir e intercambiar sobre las distintas experiencias de gestar, y acompañarnos en el camino de preparación para el momento del nacimiento.
 
-La propuesta está organizada en ciclos de 3 encuentros cada uno. Los encuentros son en modalidad virtual los días sábado en el horario de 10:30 a 12:30 horas. 
+LOS ENCUENTROS SON EN MODALIDAD VIRTUAL LOS DÍAS SÁBADOS de 10:30 a 12:00 HS. 
 
-El primer ciclo de encuentros se realizó durante junio pero aún puedes sumarte al ciclo de julio.
+##### Ciclo 1 - Agosto: Hablamos de nuestras emociones y cultivamos el vinculo madre-bebé. {#ciclo-1}
 
-#### ~~Ciclo 1: Junio 2022~~
-1° Encuentro  
-La maternidad como transformación.  
-Cambios a nivel corporal, emocional y psicológico.  
+- 1° Encuentro - Sábado 20 de agosto.   
+¿Cómo vivo mis emociones en la gestación? 
 
-2° Encuentro  
-La maternidad como acogimiento sagrado.  
-Conexión con mi cuerpo y emociones a través de ejercicios.  
+- 2° Encuentro - Sábado 27 de agosto.  
+¿Cómo me contacto y comunico con mi bebé?
 
-3° Encuentro  
-La  maternidad ancestral.  
-Honrar la madre que habita en mí.  
 &nbsp;
-#### Ciclo 2: Julio 2022 (comienzo sábado 2 de julio) {#ciclo-2}
-1° Encuentro  
-El contacto con el/la bebé.
-Proyecciones, deseos y realidad.
+##### Ciclo 2 - Setiembre: Nos acompañamos para un Parto consciente. {#ciclo-2}
 
-2° Encuentro  
-La importancia del vínculo prenatal consciente, y las formas de comunicación mamá-bebé.
+- 1° Encuentro - Sábado 3 de setiembre.  
+¿Cómo me siento para el nacimiento de mi hijo/a? 
 
-3° Encuentro  
-El cuidado de quienes gestan, y el rol de la pareja-acompañante en el embarazo consciente.  
-&nbsp;
-#### Ciclo 3: Agosto 2022  
-Más información próximamente.
-&nbsp;
-#### Ciclo 4: Setiembre 2022  
-Más información próximamente.
+- 2° Encuentro - Sábado 10 de setiembre.  
+¿Cuáles son las posibilidades y alternativas para el nacimiento?  
+¿Con cuál me siento más segura? 
 
+- 3° Encuentro - Sábado 17 de setiembre.  
+¿Que debo tener presente para el nacimiento?   
+¿Cuál es el rol que necesito de mi pareja-acompañante en ese proceso?
+
+
+Cada encuentro es independiente, pero todos se encuentran conectados entre si y conforman un proceso de acompañamiento pensado y sostenido que si lo realizas en su totalidad podrás apropiarte de sus gratificaciones.
+
+Si quieres sumarte a la propuesta completa nuestro formulario de inscripción aquí: https://forms.gle/s6o6A5jmgj5mooES6.
