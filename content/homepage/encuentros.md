@@ -7,25 +7,25 @@ En agosto damos inicio a una tercer edición del ciclo de Mujeres Gestantes en T
 
 LOS ENCUENTROS SON EN MODALIDAD VIRTUAL LOS DÍAS SÁBADOS de 10:30 a 12:00 HS. 
 
-**Ciclo 1 - Agosto: Hablamos de nuestras emociones y cultivamos el vinculo madre-bebé.**
+###### Ciclo 1 - Agosto: Hablamos de nuestras emociones y cultivamos el vínculo madre-bebé.
 
-- 1° Encuentro - Sábado 20 de agosto.   
+- 1° Encuentro - Sábado 20/8   
 ¿Cómo vivo mis emociones en la gestación? 
 
-- 2° Encuentro - Sábado 27 de agosto.  
+- 2° Encuentro - Sábado 27/8  
 ¿Cómo me contacto y comunico con mi bebé?
 
 &nbsp;
-**Ciclo 2 - Setiembre: Nos acompañamos para un Parto consciente.**
+###### Ciclo 2 - Setiembre: Nos acompañamos para un Parto consciente.
 
-- 1° Encuentro - Sábado 3 de setiembre.  
+- 1° Encuentro - Sábado 3/9  
 ¿Cómo me siento para el nacimiento de mi hijo/a? 
 
-- 2° Encuentro - Sábado 10 de setiembre.  
+- 2° Encuentro - Sábado 10/9  
 ¿Cuáles son las posibilidades y alternativas para el nacimiento?  
 ¿Con cuál me siento más segura? 
 
-- 3° Encuentro - Sábado 17 de setiembre.  
+- 3° Encuentro - Sábado 17/9  
 ¿Que debo tener presente para el nacimiento?   
 ¿Cuál es el rol que necesito de mi pareja-acompañante en ese proceso?
 
