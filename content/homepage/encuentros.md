@@ -18,14 +18,14 @@ LOS ENCUENTROS SON EN MODALIDAD VIRTUAL LOS DÍAS SÁBADOS de 10:30 a 12:00 HS.
 &nbsp;
 ###### Ciclo 2 - Setiembre: Nos acompañamos para un Parto consciente.
 
-- 1° Encuentro - Sábado 3/9  
+- 1° Encuentro - Sábado 10/9  
 ¿Cómo me siento para el nacimiento de mi hijo/a? 
 
-- 2° Encuentro - Sábado 10/9  
+- 2° Encuentro - Sábado 17/9  
 ¿Cuáles son las posibilidades y alternativas para el nacimiento?  
 ¿Con cuál me siento más segura? 
 
-- 3° Encuentro - Sábado 17/9  
+- 3° Encuentro - Sábado 24/9  
 ¿Que debo tener presente para el nacimiento?   
 ¿Cuál es el rol que necesito de mi pareja-acompañante en ese proceso?
 
