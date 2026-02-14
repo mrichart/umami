@@ -1,36 +1,56 @@
 ---
-title: "Nuestra propuesta"
-weight: 2
+title: "¿Qué hacemos?"
+weight: 3
 header_menu: true
 
 ---
 
-Encuentros grupales de acompañamiento a mujeres gestantes.
-
-Te invitamos a ser parte de un grupo de mujeres embarazadas, que será guiado por dos psicólogas, con el propósito de tejer entre todas un espacio de acompañamiento, cuidado, escucha y sostén. 
+Nuestro trabajo se desarrolla en dos líneas de acción complementarias, que buscan impactar tanto en la experiencia individual como en la esfera social, profesional y educativa.
 
 ---
 
-##### ¿CÓMO?
+#### Acompañamiento terapéutico
 
-Mediante encuentros semanales de dos horas de duración, los cuales serán de manera virtual. Para ello hemos diseñado pequeños ciclos dónde compartiremos diferentes temáticas y actividades que entendemos atraviesan y pueden nutrir el proceso de gestación. 
+Nuestro enfoque terapéutico integral aborda lo emocional, corporal, social y vincular fomentando la empatía, honestidad, la presencia y el sostén.
 
-Nos proponemos desde estos encuentros poder acompañarnos desde la diversidad de experiencias y saberes, desde la sororidad y la empatía. Habilitando un tiempo-espacio para que puedas conectar contigo, con el/la bebé y con todas las mujeres que habitemos la tribu. 
+###### Encuentros presenciales “Círculos de mujeres en tribu”
 
-Construyendo un espacio de co-cuidado y respeto, dónde puedas expresar tus sentires, evacuar dudas, y vivenciar propuestas que contribuyan a una gestación saludable.
+Espacios grupales de encuentro, red y sostén entre mujeres, donde compartir experiencias y generar comunidad es parte del proceso de bienestar.
+
+###### Sesiones individuales
+
+Acompañamiento terapéutico personalizado, enfocado en las necesidades emocionales de cada mujer durante la gestación y/o el puerperio.
+
+###### Espacios virtuales
+
+Para aquellas mujeres que se encuentren atravesando un proceso de reposo gestacional y requieran acompañamiento a distancia.
+
+###### Sesiones en pareja
+
+Abordaje presencial o virtual desde una perspectiva vincular, que permite integrar el rol de la pareja, fortalecer la comunicación y brindar herramientas para comprender y acompañar a la mujer durante el proceso.
 
 ---
 
-##### ¿QUÉ APORTA VIVIR UNA GESTACIÓN CONSCIENTE EN TRIBU? 
+#### Formación y sensibilización institucional
 
-- Vivir tu gestación acompañada por otras mujeres que también se encuentran gestando desde la sororidad. 
-- Sentirte acompañada por psicólogas que te brindaremos información y propuestas para que puedas vivir tu gestación como tu elijas desde la toma de decisiones conscientes. 
-- Transitar tu gestación desde la mirada de la gestación consciente que te brinde herramientas para una gestación saludable y disfrutable.
-- Dar atención a tus emociones y tu cuerpo.
-- Fortalecer y enriquecer el vínculo con le bebé.
-- Vivenciar técnicas de relajación y meditación.
-- Conectar y agradecer el poder de tu linaje.
-- Soltar mandatos sociales y familiares en relación a lo que se espera de la gestación y la maternidad.
-- Conectar con el disfrute y el placer de gestar-maternar.
-- Identificar y ampliar tu red de sostén.
+Concientización, formación y construcción de una cultura de cuidado.
+
+Creemos que para transformar la forma en que se viven las maternidades, es necesario ampliar la conversación hacia los espacios profesionales, educativos y laborales.
+
+Buscamos impactar en la sociedad, promoviendo prácticas más empáticas, informadas y responsables. Trabajamos con:
+
+###### Instituciones y profesionales de la salud
+
+Formaciones sobre salud mental perinatal, acompañamiento y promoción del bienestar emocional.
+
+###### Empresas y centros educativos
+
+Talleres y espacios de sensibilización y concientización sobre maternidades reales, corresponsabilidad, cuidados y salud mental perinatal.
+
+Circulos “in-company” para colaboradoras gestantes o puérperas, que abren la conversación, acompañan
+emocionalmente y favorecen un equilibrio saludable entre la vida personal y laboral.
+
+###### Herramientas que sostienen procesos:
+
+En cada propuesta incluimos materiales y recursos que colaboran a sostener los procesos más allá de cada encuentro, permitiendo integrar lo trabajado a la vida cotidiana.
 

@@ -1,0 +1,138 @@
+{{ define "main" }}
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+<header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+
+    <!-- TOP BAR (outside the vertical centering container) -->
+    <div class="site-head-topbar">
+
+    {{ with .Site.Params.logo }}
+        <a href="{{ "/" | relURL }}" class="site-head-logo-link">
+        <img class="site-head-logo" src="{{ . | relURL }}" alt="Logo">
+        </a>
+    {{ end }}
+
+    <!-- Hamburger toggle (mobile only) -->
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+
+    <div class="site-head-menu">
+        {{ range where $sections ".Params.header_menu" "eq" true }}
+        <a class="btn site-menu" data-title-anchor="{{ anchorize .Title }}">
+            {{ .Title }}
+        </a>
+        {{ end }}
+    </div>
+
+    </div>
+
+
+    <!-- HERO (keeps the vertical centering for title/description) -->
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+            {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+            {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+            <i id='header-arrow' class="fa fa-angle-down"></i>
+        </div>
+    </div>
+
+</header>
+
+<main class="content" role="main">
+
+    <div class='fixed-nav'>
+    </div>
+    {{ range $index_val, $elem_val := $sections }}
+        <div class='post-holder'>
+            <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
+                <header class="post-header">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <section class="post-content">
+                    {{ .Content }}
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    {{ end }}
+</main>
+
+<script>
+(function () {
+  function initTestimonials(root) {
+    const track = root.querySelector(".tjs-track");
+    const items = Array.from(root.querySelectorAll(".tjs-item"));
+    const bulletsWrap = root.querySelector(".tjs-bullets");
+    if (!track || items.length === 0 || !bulletsWrap) return;
+
+    const interval = parseInt(root.getAttribute("data-interval") || "6000", 10);
+    let idx = 0;
+    let timer = null;
+
+    // Build bullets
+    bulletsWrap.innerHTML = "";
+    const bullets = items.map((_, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-label", "Ir al testimonio " + (i + 1));
+      b.addEventListener("click", () => go(i, true));
+      bulletsWrap.appendChild(b);
+      return b;
+    });
+
+    function render() {
+      track.style.transform = "translateX(" + (-idx * 100) + "%)";
+      bullets.forEach((b, i) => b.setAttribute("aria-current", i === idx ? "true" : "false"));
+    }
+
+    function go(i, userAction) {
+      idx = (i + items.length) % items.length;
+      render();
+      if (userAction) restart();
+    }
+
+    function next() { go(idx + 1, false); }
+
+    function start() {
+      // Respect reduced motion: don’t autoplay
+      if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      stop();
+      timer = window.setInterval(next, interval);
+    }
+
+    function stop() {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    }
+
+    function restart() {
+      stop();
+      start();
+    }
+
+    // Pause on hover (desktop)
+    root.addEventListener("mouseenter", stop);
+    root.addEventListener("mouseleave", start);
+
+    // Pause when tab hidden
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) stop();
+      else start();
+    });
+
+    // Init
+    render();
+    start();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".tjs").forEach(initTestimonials);
+  });
+})();
+</script>
+
+
+{{ end }}

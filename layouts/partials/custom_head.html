@@ -8,7 +8,16 @@
 <!-- Custom CSS via inline styles
      You may use this template to add custom CSS to your site like so: -->
 
+<link rel="stylesheet" href='{{ "css/lato.css" | absURL }}'>
+<link rel="stylesheet" href='{{ "css/clash-display.css" | absURL }}'>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+
+
+
 <style>
+
      /* Links */
      a:hover {
          color: grey;
@@ -16,15 +25,22 @@
 
      /* Header Buttons on Startpage */
      a.btn {
-          color: grey;
-          background-color: #FFFAF0;
-	  padding: 5px 10px 5px 10px;
+          color: rgb(69, 65, 154);
+          background-color: rgb(255, 226, 91);
+	        padding: 5px 10px 5px 10px;
+          font-family: ClashDisplay-Medium;
+          text-transform: none;
      }
      a.btn:hover {
           background-color: #FFFAF0;
      }
 
      /* Scroll Menu on Startpage */
+     a.fn-item{
+          /*font-family: ClashDisplay-Variable;*/
+
+          color: rgb(183, 103, 22);
+     }
      a.fn-item.active {
           color: #819396;
      }
@@ -34,14 +50,21 @@
 
      /* Content / Sections */
      .post-holder.odd {
-          background: #dea6a7;
-          color: white;
+          background: rgb(69, 65, 154);
+          color: rgb(255, 226, 91);
      }
      .post-holder {
-          background: #f2efe8;
+          /*background: rgb(183, 103, 22);*/
+          background: rgb(255, 226, 91);
      }
      body {
-          color: #3A4145;
+          /*color: rgb(255, 226, 91);*/
+          color: rgb(69, 65, 154);
+          font-family: Lato-Regular;
+     }
+
+     .post-content h5 {
+          font-family: ClashDisplay-Medium;
      }
 
      /* Footer */
@@ -50,11 +73,256 @@
           background-color: #22343A;
      }
 
-@media only screen and (max-width: 500px) {
-	a.btn{
-		padding: 1px 10px 1px 10px;
-	}
+ /* Desktop: keep your normal menu */
+#menu-toggle,
+.menu-icon {
+  display: none;
 }
+
+@media only screen and (max-width: 500px) {
+
+  /* Show hamburger */
+  .menu-icon {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(69, 65, 154);
+    user-select: none;
+    padding: 6px 10px;
+  }
+
+  /* Hide the checkbox but keep it functional */
+  #menu-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* FORCE menu hidden by default on mobile */
+  #site-head .site-head-topbar .site-head-menu {
+    display: none !important;
+    width: 100%;
+    margin-top: 10px;
+
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  /* Open menu when checkbox is checked (robust selector) */
+  #menu-toggle:checked ~ .site-head-menu {
+    display: flex !important;
+  }
+
+  /* Make bar stack nicely on mobile */
+  #site-head .site-head-topbar {
+    flex-wrap: wrap;
+    padding: 8px 12px;
+  }
+
+  /* Full-width tappable buttons */
+  #site-head .site-head-topbar .site-head-menu a.btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+/* ===== Header top layout: logo left, menu top ===== */
+
+/* Make header a positioning context */
+#site-head {
+  position: relative;
+  color: rgb(255, 226, 91);
+}
+
+/* Top bar spans the header top edge */
+#site-head .site-head-topbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;            /* vertical centering */
+  justify-content: space-between; /* logo left, menu right */
+
+  background: rgba(255, 226, 91, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* spacing from page edges */
+  margin: 16px auto 0 auto;
+  max-width: 1200px;
+  width: calc(100% - 32px);
+
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+
+  /* THIS controls the bar height */
+  padding: 6px 18px;
+}
+
+
+#site-head .site-head-topbar a.btn {
+  display: inline-flex;      /* <-- key */
+  align-items: center;       /* vertically center text inside the pill */
+  justify-content: center;
+
+  background-color: transparent;
+  border-radius: 999px;
+  
+
+  padding: 4px 12px;         /* adjust height here */
+  line-height: 1;            /* avoid tall line boxes */
+  margin: 0;                 /* prevent inherited margins */
+}
+
+
+
+
+/* Logo top-left */
+#site-head .site-head-logo{
+  max-height: 34px;
+  width: auto;
+  display: block;
+}
+
+
+/* Menu top-right */
+#site-head .site-head-menu{
+  display: flex;
+  align-items: center;   /* <-- key */
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+/* OPTIONAL: if you want it pinned to the top of the *page* even while scrolling the header:
+#site-head .site-head-topbar { position: fixed; }
+*/
+
+/* Ensure hero text doesn't overlap the top bar */
+#site-head-content.inner {
+  padding-top: 90px;
+}
+
+#site-head .blog-title{
+     padding: 20px 18px;
+     font-family: ClashDisplay-Medium;
+}
+
+/* Semi-transparent background for header description */
+#site-head .blog-description {
+  display: inline-block;          /* shrink to text width */
+  background: rgba(84, 82, 80, 0.75); /* light, semi-transparent */
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-family: ClashDisplay-Medium;
+
+  color: rgb(255, 226, 91);                 /* ensure readable text */
+  line-height: 1.4;
+}
+
+/* Two column layout */
+.post-content .two-col{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.post-content .two-col .col{
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Profile image styling */
+.post-content .profile-img{
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* Optional: center image inside column */
+.post-content .col{
+  text-align: left;
+}
+
+/* Mobile: stack */
+@media (max-width: 700px){
+  .post-content .two-col{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .post-content .profile-img{
+    max-width: 180px;
+     margin-left: 0;
+     margin-right: auto;
+  }
+}
+
+/* JS testimonial slider (inherits theme typography) */
+.post-content .tjs{
+  margin: 24px 0;
+}
+
+.post-content .tjs-viewport{
+  overflow: hidden;
+}
+
+.post-content .tjs-track{
+  display: flex;
+  transition: transform 520ms ease;
+  will-change: transform;
+}
+
+.post-content .tjs-item{
+  flex: 0 0 100%;
+  margin: 0;           /* keep it like normal paragraphs */
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+/* Bullets */
+.post-content .tjs-bullets{
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-content .tjs-bullets button{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255, 226, 91, 0.25);
+  padding: 0;
+  cursor: pointer;
+}
+
+.post-content .tjs-bullets button[aria-current="true"]{
+  background: rgb(255, 226, 91);
+}
+
+/* Reduced motion: disable sliding animation */
+@media (prefers-reduced-motion: reduce){
+  .post-content .tjs-track{ transition: none; }
+}
+
+
 </style>
 
 <!-- Custom CSS via "custom.css"-file
@@ -82,11 +350,11 @@
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="{{ "images/favicon-32x32.png" | absURL }}"
+  href="{{ "images/logo.png"| absURL }}"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="{{ "images/favicon-16x16.png" | absURL }}"
+  href="{{ "images/logo.png" | absURL }}"
 />

@@ -1,28 +1,26 @@
 ---
-title: "Sobre nosotras"
-weight: 4
+title: "¿Quiénes somos?"
+weight: 2
 header_menu: true
 ---
 
-![Nosotras](images/nosotras.png)
+Somos Gaby y Caro, hermanas y psicólogas especializadas en salud mental perinatal. Contamos con una sólida trayectoria en el acompañamiento individual y grupal de mujeres gestantes, puérperas y familias que han atravesado pérdidas gestacionales o reproductivas.
 
-Somos Gaby y Carol.
-Somos hermanas, madres y psicólogas.
+También somos madres, y nuestras propias experiencias nos aportan una comprensión vivencial y
+empática de las emociones, necesidades y desafíos que atraviesa una mujer a lo largo de
+cada proceso.
 
-Gaby mamá de Juan y Nico.
-Caro mamá de Manu.
+<div class="two-col">
+  <div class="col">
+    <img src="images/gaby.jpg" alt="Gabriela S. Pérez" class="profile-img">
+    <h5>GABRIELA S. PÉREZ</h5>
+    <p>Psicóloga, Especialista en Salud Mental Perinatal y Magíster en Salud Mental Comunitaria. Su formación le permite integrar la perspectiva perinatal dentro de un marco más amplio, considerando el impacto que cada proceso gestacional tiene en la familia, la comunidad y las redes sociales de cuidado.</p>
+  </div>
 
-En nuestras historias de vida la hermandad siempre ha sido vivida como compañía, tanto así que tuvimos la fortuna de vivir gestaciones casi paralelas, sólo con un mes de distancia.
-Atravesar nuestras gestaciones en paralelo, nos hizo sentir sostenidas, nos dio tranquilidad, nos ayudó a identificar cuándo pedir ayuda y saber a quién acudir. Fue un ida y vuelta de compartir experiencias, sentires, dudas e información. Nos hizo todo más liviano, más disfrutable y ameno.
+  <div class="col">
+    <img src="images/caro.jpg" alt="Carolina T. Pérez" class="profile-img">
+    <h5>CAROLINA T. PÉREZ</h5>
+    <p>Psicóloga, Especialista en Salud Mental Perinatal y Magíster en Educación. Su recorrido académico y profesional en el ámbito educativo le otorga una mirada transversal, que integra herramientas pedagógicas y psicoeducativas a la prevención y promoción de la salud mental perinatal.</p>
+  </div>
+</div>
 
-A lo que sin duda se sumo también los conocimientos que cada una traía de su profesión, donde si bien somos psicólogas cada una tiene trayectorias distintas y nos sentimos enriquecidas por la mirada y compañía de la otra, que siempre tenía la palabra justa o te ayudaba a ver la situación desde otra perspectiva.
-
-Gaby siempre ligada al arte, su don natural. Entre el arte y la psicología enfocada siempre en los procesos de salud y bienestar, en contribuir para que las personas se sientan bien consigo y su entorno. Que encuentren su equilibro entre lo imaginario y lo real.
-
-Caro, la narradora de historias, soñadora, que siempre está gestando proyectos o ideas. Enfocada en la psicología y la educación. En las infancias y la protección de derechos. Ahora también terapeuta floral.
-
-Así cada una siempre desde nuestras singularidades y caminos hemos encontrado las formas de estar unidas, y hoy, más que nunca, este proyecto nos encuentra así; juntas, felices, satisfechas, ansiosas y con muchas ganas de empezar a formar tribu.
-
-De poder compartir nuestras experiencias y saberes, para poder habitar en conjunto un espacio de encuentro y acompañamiento, que brinde información y que sea sostén y red de compañía.  
-
-Un ciclo lunar de gestaciones y tribu.
