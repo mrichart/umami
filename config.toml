@@ -1,4 +1,4 @@
-baseURL = "https://mrichart.github.io/umami/"
+baseURL = "umami.uy"
 
 publishDir = "docs"
 
@@ -22,7 +22,7 @@ title = "Espacio Umami - Maternidad y gestación consciente"
     description = "Espacio de maternidad y gestación consciente"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon.png"
+    #favicon = "images/favicon.png"
 
     logo = "images/logo.png"
 
