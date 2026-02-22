@@ -1,4 +1,4 @@
-baseURL = "umami.uy"
+baseURL = "https://mrichart.github.io/umami/"
 
 publishDir = "docs"
 
