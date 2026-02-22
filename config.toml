@@ -11,7 +11,7 @@ defaultContentLanguage = "es"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Espacio Umami - Maternidad y gestación consciente"
+title = "Umami - Espacio de Gestaciones y Maternidades Conscientes"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -19,10 +19,10 @@ title = "Espacio Umami - Maternidad y gestación consciente"
     copyright = "© umami.uy"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Espacio de maternidad y gestación consciente"
+    description = "El sabor de las maternidades reales"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    #favicon = "images/favicon.png"
+    favicon = "/images/favicon.png"
 
     logo = "/images/logo.png"
 
@@ -30,19 +30,19 @@ title = "Espacio Umami - Maternidad y gestación consciente"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/cover-image.png"]
+    images = ["/images/cover-image-2.png"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Espacio Umami - Maternidad y gestación consciente"
+    title = "Umami - Espacio de Gestaciones y Maternidades Conscientes"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
     # hidedesignbyline = true
 
     # Google Analytics 4    
-    googleAnalyticsID = "UA-225994449-1"
+    #googleAnalyticsID = "UA-225994449-1"
 
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
