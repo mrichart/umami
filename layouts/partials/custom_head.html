@@ -11,11 +11,6 @@
 <link rel="stylesheet" href='{{ "css/lato.css" | absURL }}'>
 <link rel="stylesheet" href='{{ "css/clash-display.css" | absURL }}'>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
-
-
-
 <style>
 
      /* Links */
@@ -36,32 +31,81 @@
      }
 
      /* Scroll Menu on Startpage */
-     a.fn-item{
-          /*font-family: ClashDisplay-Variable;*/
+      a.fn-item {
+          /* Remove static color, let JS handle it */
+          color: black;
+      }
+      a.fn-item.active {
+          color:gray;
+      }
+      a.fn-item:hover {
+          color: gray;
+      }
 
-          color: rgb(183, 103, 22);
-     }
-     a.fn-item.active {
-          color: #819396;
-     }
-     a.fn-item:hover {
-          color: grey;
+
+     body {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
      }
 
      /* Content / Sections */
-     .post-holder.odd {
+          /* Post 1 - opener */
+      .post-holder:nth-child(2) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
+          
+      }
+
+      /* Post 2 - somos */
+      .post-holder:nth-child(3) {
           background: rgb(69, 65, 154);
           color: rgb(255, 226, 91);
-     }
-     .post-holder {
-          /*background: rgb(183, 103, 22);*/
-          background: rgb(255, 226, 91);
-     }
-     body {
-          /*color: rgb(255, 226, 91);*/
-          color: rgb(69, 65, 154);
           font-family: Lato-Regular;
-     }
+          
+      }
+
+      /* Post 3 - hacemos */
+      .post-holder:nth-child(4) {
+          color: rgb(69, 65, 154);
+          background-color: rgb(255, 226, 91);
+          font-family:  Lato-Regular;
+          
+      }
+
+      /* Post 4 - diferencia */
+      .post-holder:nth-child(5) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
+          
+      }
+
+      /* Post 5 - testimonios */
+      .post-holder:nth-child(6) {
+          background-image: url('images/fondo-testimonios-2.png');
+          background-size: auto;
+          background-position: bottom;
+          background-repeat: no-repeat;
+          color: rgb(255,226,91);
+          font-family: Lato-Regular;
+          
+      }
+    .post-holder:nth-child(6) .post-after {
+          border-left: 0;
+          border-right: 0;
+          border-bottom: 80px solid rgb(183, 103, 22);
+          
+      }
+
+      /* Post 6 (contacto) */
+      .post-holder:nth-child(7) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: ClashDisplay-Medium;
+          
+      }
 
      .post-content h5 {
           font-family: ClashDisplay-Medium;
@@ -220,7 +264,7 @@
   background: rgba(84, 82, 80, 0.75); /* light, semi-transparent */
   padding: 10px 18px;
   border-radius: 6px;
-  font-family: ClashDisplay-Medium;
+  font-family: Lato-Regular;
 
   color: rgb(255, 226, 91);                 /* ensure readable text */
   line-height: 1.4;
@@ -237,6 +281,7 @@
 .post-content .two-col .col{
   flex: 1 1 0;
   min-width: 0;
+  line-height: 2rem;
 }
 
 /* Profile image styling */

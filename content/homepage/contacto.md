@@ -1,12 +1,19 @@
 ---
 title: "Contacto"
-weight: 4
+weight: 6
 header_menu: true
 ---
 
-Por mas información e inscripciones a los encuentros escribenos!!
+<div style="line-height: 1;">
 
 {{<icon class="fa fa-envelope">}}&nbsp;[umamitribu@gmail.com](mailto:umamitribu@gmail.com)
 
 {{<icon class="fa fa-instagram">}}&nbsp;[umami.uy](https://www.instagram.com/umami.uy/)
+
+</div>
+
+
+<div style="text-align: center;">
+UMAMI - El sabor de las maternidades reales.
+</div>
 

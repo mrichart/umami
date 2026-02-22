@@ -28,20 +28,24 @@
   type="text/css"
 />
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="Espacio de maternidad y gestación consciente" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://mrichart.github.io/umami/" /><meta property="og:image" content="https://mrichart.github.io/umami/images/cover-image.png"/><meta property="og:site_name" content="Espacio Umami - Maternidad y gestación consciente" />
+<meta property="og:url" content="https://mrichart.github.io/umami/">
+  <meta property="og:site_name" content="Espacio Umami - Maternidad y gestación consciente">
+  <meta property="og:title" content="Espacio Umami - Maternidad y gestación consciente">
+  <meta property="og:description" content="Espacio de maternidad y gestación consciente">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://mrichart.github.io/umami/images/cover-image.png">
 
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://mrichart.github.io/umami/images/cover-image.png"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mrichart.github.io/umami/images/cover-image.png">
+  <meta name="twitter:title" content="Espacio Umami - Maternidad y gestación consciente">
+  <meta name="twitter:description" content="Espacio de maternidad y gestación consciente">
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Espacio de maternidad y gestación consciente"/>
 
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Espacio de maternidad y gestación consciente">
+  <meta itemprop="name" content="Espacio Umami - Maternidad y gestación consciente">
+  <meta itemprop="description" content="Espacio de maternidad y gestación consciente">
+  <meta itemprop="image" content="https://mrichart.github.io/umami/images/cover-image.png">
 
 
 
@@ -60,7 +64,11 @@
 
 
 
+<link rel="stylesheet" href='https://mrichart.github.io/umami/css/lato.css'>
+<link rel="stylesheet" href='https://mrichart.github.io/umami/css/clash-display.css'>
+
 <style>
+
       
      a:hover {
          color: grey;
@@ -68,32 +76,95 @@
 
       
      a.btn {
-          color: grey;
-          background-color: #FFFAF0;
-	  padding: 5px 10px 5px 10px;
+          color: rgb(69, 65, 154);
+          background-color: rgb(255, 226, 91);
+	        padding: 5px 10px 5px 10px;
+          font-family: ClashDisplay-Medium;
+          text-transform: none;
      }
      a.btn:hover {
           background-color: #FFFAF0;
      }
 
       
-     a.fn-item.active {
-          color: #819396;
-     }
-     a.fn-item:hover {
-          color: grey;
+      a.fn-item {
+           
+          color: black;
+      }
+      a.fn-item.active {
+          color:gray;
+      }
+      a.fn-item:hover {
+          color: gray;
+      }
+
+
+     body {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
      }
 
       
-     .post-holder.odd {
-          background: #dea6a7;
-          color: white;
-     }
-     .post-holder {
-          background: #f2efe8;
-     }
-     body {
-          color: #3A4145;
+           
+      .post-holder:nth-child(2) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
+          
+      }
+
+       
+      .post-holder:nth-child(3) {
+          background: rgb(69, 65, 154);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
+          
+      }
+
+       
+      .post-holder:nth-child(4) {
+          color: rgb(69, 65, 154);
+          background-color: rgb(255, 226, 91);
+          font-family:  Lato-Regular;
+          
+      }
+
+       
+      .post-holder:nth-child(5) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: Lato-Regular;
+          
+      }
+
+       
+      .post-holder:nth-child(6) {
+          background-image: url('images/fondo-testimonios-2.png');
+          background-size: auto;
+          background-position: bottom;
+          background-repeat: no-repeat;
+          color: rgb(255,226,91);
+          font-family: Lato-Regular;
+          
+      }
+    .post-holder:nth-child(6) .post-after {
+          border-left: 0;
+          border-right: 0;
+          border-bottom: 80px solid rgb(183, 103, 22);
+          
+      }
+
+       
+      .post-holder:nth-child(7) {
+          background: rgb(183, 103, 22);
+          color: rgb(255, 226, 91);
+          font-family: ClashDisplay-Medium;
+          
+      }
+
+     .post-content h5 {
+          font-family: ClashDisplay-Medium;
      }
 
       
@@ -102,11 +173,255 @@
           background-color: #22343A;
      }
 
-@media only screen and (max-width: 500px) {
-	a.btn{
-		padding: 1px 10px 1px 10px;
-	}
+  
+#menu-toggle,
+.menu-icon {
+  display: none;
 }
+
+@media only screen and (max-width: 500px) {
+
+   
+  .menu-icon {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(69, 65, 154);
+    user-select: none;
+    padding: 6px 10px;
+  }
+
+   
+  #menu-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+   
+  #site-head .site-head-topbar .site-head-menu {
+    display: none !important;
+    width: 100%;
+    margin-top: 10px;
+
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+   
+  #menu-toggle:checked ~ .site-head-menu {
+    display: flex !important;
+  }
+
+   
+  #site-head .site-head-topbar {
+    flex-wrap: wrap;
+    padding: 8px 12px;
+  }
+
+   
+  #site-head .site-head-topbar .site-head-menu a.btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+ 
+
+ 
+#site-head {
+  position: relative;
+  color: rgb(255, 226, 91);
+}
+
+ 
+#site-head .site-head-topbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;             
+  justify-content: space-between;  
+
+  background: rgba(255, 226, 91, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+   
+  margin: 16px auto 0 auto;
+  max-width: 1200px;
+  width: calc(100% - 32px);
+
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+
+   
+  padding: 6px 18px;
+}
+
+
+#site-head .site-head-topbar a.btn {
+  display: inline-flex;       
+  align-items: center;        
+  justify-content: center;
+
+  background-color: transparent;
+  border-radius: 999px;
+  
+
+  padding: 4px 12px;          
+  line-height: 1;             
+  margin: 0;                  
+}
+
+
+
+
+ 
+#site-head .site-head-logo{
+  max-height: 34px;
+  width: auto;
+  display: block;
+}
+
+
+ 
+#site-head .site-head-menu{
+  display: flex;
+  align-items: center;    
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+ 
+
+ 
+#site-head-content.inner {
+  padding-top: 90px;
+}
+
+#site-head .blog-title{
+     padding: 20px 18px;
+     font-family: ClashDisplay-Medium;
+}
+
+ 
+#site-head .blog-description {
+  display: inline-block;           
+  background: rgba(84, 82, 80, 0.75);  
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-family: Lato-Regular;
+
+  color: rgb(255, 226, 91);                  
+  line-height: 1.4;
+}
+
+ 
+.post-content .two-col{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.post-content .two-col .col{
+  flex: 1 1 0;
+  min-width: 0;
+  line-height: 2rem;
+}
+
+ 
+.post-content .profile-img{
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+ 
+.post-content .col{
+  text-align: left;
+}
+
+ 
+@media (max-width: 700px){
+  .post-content .two-col{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .post-content .profile-img{
+    max-width: 180px;
+     margin-left: 0;
+     margin-right: auto;
+  }
+}
+
+ 
+.post-content .tjs{
+  margin: 24px 0;
+}
+
+.post-content .tjs-viewport{
+  overflow: hidden;
+}
+
+.post-content .tjs-track{
+  display: flex;
+  transition: transform 520ms ease;
+  will-change: transform;
+}
+
+.post-content .tjs-item{
+  flex: 0 0 100%;
+  margin: 0;            
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+ 
+.post-content .tjs-bullets{
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-content .tjs-bullets button{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255, 226, 91, 0.25);
+  padding: 0;
+  cursor: pointer;
+}
+
+.post-content .tjs-bullets button[aria-current="true"]{
+  background: rgb(255, 226, 91);
+}
+
+ 
+@media (prefers-reduced-motion: reduce){
+  .post-content .tjs-track{ transition: none; }
+}
+
+
 </style>
 
 
@@ -123,38 +438,98 @@
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="https://mrichart.github.io/umami/images/favicon-32x32.png"
+  href="https://mrichart.github.io/umami/images/logo.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="https://mrichart.github.io/umami/images/favicon-16x16.png"
+  href="https://mrichart.github.io/umami/images/logo.png"
 />
 <body>
 
 
 
-<header id="site-head" style="background-image: url(images/cover-image.png)">
+<header id="site-head" style="background-image: url(images/cover-image-2.png)">
+
+    
+    <div class="site-head-topbar">
+
+    
+        <a href="/" class="site-head-logo-link">
+        <img class="site-head-logo" src="/umami/images/logo.png" alt="Logo">
+        </a>
+    
+
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+
+    <div class="site-head-menu">
+        
+
+        
+
+        <a class="btn site-menu"
+            data-title-anchor="quiénes-somos">
+            ¿Quiénes somos?
+        </a>
+
+        
+
+        
+
+        <a class="btn site-menu"
+            data-title-anchor="qué-hacemos">
+            ¿Qué hacemos?
+        </a>
+
+        
+
+        
+
+        <a class="btn site-menu"
+            data-title-anchor="qué-nos-diferencia">
+            ¿Qué nos diferencia?
+        </a>
+
+          
+            <a class="btn" 
+            href="https://medium.com/@umamitribu"
+            target="_blank"
+            rel="noopener noreferrer">
+            Blog
+            </a>
+        
+
+        
+
+        <a class="btn site-menu"
+            data-title-anchor="contacto">
+            Contacto
+        </a>
+
+        
+
+        
+    </div>
+
+    </div>
+
+
+    
     <div class="vertical">
         <div id="site-head-content" class="inner">
-
-            <h1 class="blog-title">Espacio Umami</h1>
-            <h2 class="blog-description">Gestación y maternidad consciente</h2>
-
-            
-                 <a class='btn site-menu' data-title-anchor='nuestra-propuesta'>Nuestra propuesta</a>
-            
-                 <a class='btn site-menu' data-title-anchor='próximos-encuentros-2022'>Próximos encuentros 2022</a>
-            
-                 <a class='btn site-menu' data-title-anchor='sobre-nosotras'>Sobre nosotras</a>
-            
-                 <a class='btn site-menu' data-title-anchor='contacto'>Contacto</a>
-            
+            <h2 class="blog-description">Espacio de Gestaciones y Maternidades Conscientes</h2>
+            <h1 class="blog-title">EL SABOR DE LAS MATERNIDADES REALES</h1>
             <i id='header-arrow' class="fa fa-angle-down"></i>
         </div>
     </div>
+
 </header>
+
 <main class="content" role="main">
 
     <div class='fixed-nav'>
@@ -166,9 +541,9 @@
                     <h2 class="post-title">Bienvenidas</h2>
                 </header>
                 <section class="post-content">
-                    <p>Como sabemos, la gestación es el período de tiempo comprendido entre la concepción y el nacimiento. Es ese tiempo dónde el/la bebé crece y se desarrolla dentro del útero de la madre.  Dónde quien gesta, se sumerge en un mar de cambios, no solo el cuerpo se transforma, también sus emociones, su forma de pensar, sus relaciones con los demás y con el entorno. De pronto todo se torna  distinto, nuevo, desconocido, repleto de sensaciones y vivencias que hasta ahora no había experimentado. Sin importar si es la primera vez, o si ya has sido madre, cada experiencia es única, cada gestación nos lleva a un viaje desconocido, porque hay algo que acontece, que marca un antes y un después en la vida de quienes gestan y su entorno.</p>
-<p>En la actualidad, desde las sociedades occidentales, muchas veces este proceso de la vida se transita en soledad, o rodeada sólo de aquellas personas más allegadas. Puede ser difícil para quien también se está gestando como mamá, encontrarse acompañada y sostenida por una red de apoyo. Así aparecen muchas sensaciones, preguntas, dudas, e incertidumbres, que a veces no son tan fáciles de responder y procesar.</p>
-<p>Como psicólogas, cómo hermanas y como madres que vivimos este proceso de gestación creamos Umami. Un espacio de acompañamiento a mujeres gestantes, con el propósito de que sea tu lugar para compartir con otras.</p>
+                    <p>Umami nace para contribuir al bienestar emocional de mujeres gestantes y puérperas, integrando la salud mental perinatal como parte esencial del cuidado.</p>
+<p>Queremos acompañar las gestaciones y las maternidades desde una mirada integral, física, emocional y vincular, para que cada mujer pueda transitar este proceso de forma consciente y sostenida, donde la salud mental tenga el lugar que merece.</p>
+<h6 id="queremos-transformar-la-forma-en-que-se-vive-y-se-acompaña-a-las-maternidades-en-nuestra-sociedad-uruguaya-donde-la-salud-mental-perinatal-deje-de-ser-un-complemento-y-pase-a-ser-un-pilar-del-bienestar">Queremos transformar la forma en que se vive y se acompaña a las maternidades en nuestra sociedad uruguaya, donde la salud mental perinatal deje de ser un complemento y pase a ser un pilar del bienestar.</h6>
 
                 </section>
             </article>
@@ -176,32 +551,27 @@
         </div>
     
         <div class='post-holder'>
-            <article id='nuestra-propuesta' class='post  '>
+            <article id='quiénes-somos' class='post  '>
                 <header class="post-header">
-                    <h2 class="post-title">Nuestra propuesta</h2>
+                    <h2 class="post-title">¿Quiénes somos?</h2>
                 </header>
                 <section class="post-content">
-                    <p>Encuentros grupales de acompañamiento a mujeres gestantes.</p>
-<p>Te invitamos a ser parte de un grupo de mujeres embarazadas, que será guiado por dos psicólogas, con el propósito de tejer entre todas un espacio de acompañamiento, cuidado, escucha y sostén.</p>
-<hr>
-<h5 id="cómo">¿CÓMO?</h5>
-<p>Mediante encuentros semanales de dos horas de duración, los cuales serán de manera virtual. Para ello hemos diseñado pequeños ciclos dónde compartiremos diferentes temáticas y actividades que entendemos atraviesan y pueden nutrir el proceso de gestación.</p>
-<p>Nos proponemos desde estos encuentros poder acompañarnos desde la diversidad de experiencias y saberes, desde la sororidad y la empatía. Habilitando un tiempo-espacio para que puedas conectar contigo, con el/la bebé y con todas las mujeres que habitemos la tribu.</p>
-<p>Construyendo un espacio de co-cuidado y respeto, dónde puedas expresar tus sentires, evacuar dudas, y vivenciar propuestas que contribuyan a una gestación saludable.</p>
-<hr>
-<h5 id="qué-aporta-vivir-una-gestación-consciente-en-tribu">¿QUÉ APORTA VIVIR UNA GESTACIÓN CONSCIENTE EN TRIBU?</h5>
-<ul>
-<li>Vivir tu gestación acompañada por otras mujeres que también se encuentran gestando desde la sororidad.</li>
-<li>Sentirte acompañada por psicólogas que te brindaremos información y propuestas para que puedas vivir tu gestación como tu elijas desde la toma de decisiones conscientes.</li>
-<li>Transitar tu gestación desde la mirada de la gestación consciente que te brinde herramientas para una gestación saludable y disfrutable.</li>
-<li>Dar atención a tus emociones y tu cuerpo.</li>
-<li>Fortalecer y enriquecer el vínculo con le bebé.</li>
-<li>Vivenciar técnicas de relajación y meditación.</li>
-<li>Conectar y agradecer el poder de tu linaje.</li>
-<li>Soltar mandatos sociales y familiares en relación a lo que se espera de la gestación y la maternidad.</li>
-<li>Conectar con el disfrute y el placer de gestar-maternar.</li>
-<li>Identificar y ampliar tu red de sostén.</li>
-</ul>
+                    <p>Somos Gaby y Caro, hermanas y psicólogas especializadas en salud mental perinatal. Contamos con una sólida trayectoria en el acompañamiento individual y grupal de mujeres gestantes, puérperas y familias que han atravesado pérdidas gestacionales o reproductivas.</p>
+<p>También somos madres, y nuestras propias experiencias nos aportan una comprensión vivencial y
+empática de las emociones, necesidades y desafíos que atraviesa una mujer a lo largo de
+cada proceso.</p>
+<div class="two-col">
+  <div class="col">
+    <img src="images/foto-gaby.png" alt="Gabriela S. Pérez" class="profile-img">
+    <h5>GABRIELA S. PÉREZ</h5>
+    <p>Psicóloga, Especialista en Salud Mental Perinatal y Magíster en Salud Mental Comunitaria. Su formación le permite integrar la perspectiva perinatal dentro de un marco más amplio, considerando el impacto que cada proceso gestacional tiene en la familia, la comunidad y las redes sociales de cuidado.</p>
+  </div>
+  <div class="col">
+    <img src="images/foto-caro.png" alt="Carolina T. Pérez" class="profile-img">
+    <h5>CAROLINA T. PÉREZ</h5>
+    <p>Psicóloga, Especialista en Salud Mental Perinatal y Magíster en Educación. Su recorrido académico y profesional en el ámbito educativo le otorga una mirada transversal, que integra herramientas pedagógicas y psicoeducativas a la prevención y promoción de la salud mental perinatal.</p>
+  </div>
+</div>
 
                 </section>
             </article>
@@ -209,44 +579,83 @@
         </div>
     
         <div class='post-holder'>
-            <article id='próximos-encuentros-2022' class='post  '>
+            <article id='qué-hacemos' class='post  '>
                 <header class="post-header">
-                    <h2 class="post-title">Próximos encuentros 2022</h2>
+                    <h2 class="post-title">¿Qué hacemos?</h2>
                 </header>
                 <section class="post-content">
-                    <p>En agosto damos inicio a una tercer edición del ciclo de Mujeres Gestantes en Tribu, donde a través de 5 encuentros  (2 en agosto y 3 en setiembre) nos reuniremos para compartir e intercambiar sobre las distintas experiencias de gestar, y acompañarnos en el camino de preparación para el momento del nacimiento.</p>
-<p>LOS ENCUENTROS SON EN MODALIDAD VIRTUAL LOS DÍAS SÁBADOS de 10:30 a 12:00 HS.</p>
-<h6 id="ciclo-1---agosto-hablamos-de-nuestras-emociones-y-cultivamos-el-vínculo-madre-bebé">Ciclo 1 - Agosto: Hablamos de nuestras emociones y cultivamos el vínculo madre-bebé.</h6>
-<ul>
-<li>
-<p>1° Encuentro - Sábado 20/8<br>
-¿Cómo vivo mis emociones en la gestación?</p>
-</li>
-<li>
-<p>2° Encuentro - Sábado 27/8<br>
-¿Cómo me contacto y comunico con mi bebé?</p>
-</li>
-</ul>
-<p> </p>
-<h6 id="ciclo-2---setiembre-nos-acompañamos-para-un-parto-consciente">Ciclo 2 - Setiembre: Nos acompañamos para un Parto consciente.</h6>
-<ul>
-<li>
-<p>1° Encuentro - Sábado 10/9<br>
-¿Cómo me siento para el nacimiento de mi hijo/a?</p>
-</li>
-<li>
-<p>2° Encuentro - Sábado 17/9<br>
-¿Cuáles son las posibilidades y alternativas para el nacimiento?<br>
-¿Con cuál me siento más segura?</p>
-</li>
-<li>
-<p>3° Encuentro - Sábado 24/9<br>
-¿Que debo tener presente para el nacimiento?<br>
-¿Cuál es el rol que necesito de mi pareja-acompañante en ese proceso?</p>
-</li>
-</ul>
-<p>Cada encuentro es independiente, pero todos se encuentran conectados entre si y conforman un proceso de acompañamiento pensado y sostenido que si lo realizas en su totalidad podrás apropiarte de sus gratificaciones.</p>
-<p>Si quieres sumarte a la propuesta completa nuestro formulario de inscripción aquí: <a href="https://forms.gle/s6o6A5jmgj5mooES6">https://forms.gle/s6o6A5jmgj5mooES6</a>.</p>
+                    <p>En un contexto donde la salud mental perinatal todavía se encuentra poco integrada al sistema de cuidado, UMAMI busca ofrecer herramientas, recursos y generar espacios donde la mujer pueda ser centro, sin culpa y con la contención que merece, tejiendo redes de sostén.</p>
+<p>Nuestro trabajo se desarrolla en dos líneas de acción complementarias, que buscan impactar tanto en la experiencia individual como en la esfera social, profesional y educativa.</p>
+<div class="two-col">
+  <div class="col">
+    <h4>1. Acompañamiento terapéutico</h4>
+    <p>Nuestro enfoque terapéutico integral aborda lo emocional, corporal, social y vincular fomentando la empatía, honestidad, la presencia y el sostén.</p>
+    <h6>Encuentros presenciales “Círculos de mujeres en tribu”</h6>
+    <p>Espacios grupales de encuentro, red y sostén entre mujeres, donde compartir experiencias y generar comunidad es parte del proceso de bienestar.</p>
+    <h6>Sesiones individuales</h6>
+    <p>Acompañamiento terapéutico personalizado, enfocado en las necesidades emocionales de cada mujer durante la gestación y/o el puerperio.</p>
+    <h6>Espacios virtuales</h6>
+    <p>Para aquellas mujeres que se encuentren atravesando un proceso de reposo gestacional y requieran acompañamiento a distancia.</p>
+    <h6>Sesiones en pareja</h6>
+    <p>Abordaje presencial o virtual desde una perspectiva vincular, que permite integrar el rol de la pareja, fortalecer la comunicación y brindar herramientas para comprender y acompañar a la mujer durante el proceso.</p>
+  </div>
+  <div class="col">
+    <h4>2. Formación y sensibilización institucional</h4>
+    <p>Concientización, formación y construcción de una cultura de cuidado.</p>
+    <p>Creemos que para transformar la forma en que se viven las maternidades, es necesario ampliar la conversación hacia los espacios profesionales, educativos y laborales.</p>
+    <p>Buscamos impactar en la sociedad, promoviendo prácticas más empáticas, informadas y responsables. Trabajamos con:</p>
+    <h6>Instituciones y profesionales de la salud</h6>
+    <p>Formaciones sobre salud mental perinatal, acompañamiento y promoción del bienestar emocional.</p>
+    <h6>Empresas y centros educativos</h6>
+    <p>Talleres y espacios de sensibilización y concientización sobre maternidades reales, corresponsabilidad, cuidados y salud mental perinatal.</p>
+    <p>Circulos “in-company” para colaboradoras gestantes o puérperas, que abren la conversación, acompañan emocionalmente y favorecen un equilibrio saludable entre la vida personal y laboral.</p>
+    <!-- <h6>Herramientas que sostienen procesos:</h6>
+    <p>En cada propuesta incluimos materiales y recursos que colaboran a sostener los procesos más allá de cada encuentro, permitiendo integrar lo trabajado a la vida cotidiana.</p> -->
+  </div>
+</div>
+<!-- #### Acompañamiento terapéutico
+
+Nuestro enfoque terapéutico integral aborda lo emocional, corporal, social y vincular fomentando la empatía, honestidad, la presencia y el sostén.
+
+###### Encuentros presenciales “Círculos de mujeres en tribu”
+
+Espacios grupales de encuentro, red y sostén entre mujeres, donde compartir experiencias y generar comunidad es parte del proceso de bienestar.
+
+###### Sesiones individuales
+
+Acompañamiento terapéutico personalizado, enfocado en las necesidades emocionales de cada mujer durante la gestación y/o el puerperio.
+
+###### Espacios virtuales
+
+Para aquellas mujeres que se encuentren atravesando un proceso de reposo gestacional y requieran acompañamiento a distancia.
+
+###### Sesiones en pareja
+
+Abordaje presencial o virtual desde una perspectiva vincular, que permite integrar el rol de la pareja, fortalecer la comunicación y brindar herramientas para comprender y acompañar a la mujer durante el proceso.
+
+---
+
+#### Formación y sensibilización institucional
+
+Concientización, formación y construcción de una cultura de cuidado.
+
+Creemos que para transformar la forma en que se viven las maternidades, es necesario ampliar la conversación hacia los espacios profesionales, educativos y laborales.
+
+Buscamos impactar en la sociedad, promoviendo prácticas más empáticas, informadas y responsables. Trabajamos con:
+
+###### Instituciones y profesionales de la salud
+
+Formaciones sobre salud mental perinatal, acompañamiento y promoción del bienestar emocional.
+
+###### Empresas y centros educativos
+
+Talleres y espacios de sensibilización y concientización sobre maternidades reales, corresponsabilidad, cuidados y salud mental perinatal.
+
+Circulos “in-company” para colaboradoras gestantes o puérperas, que abren la conversación, acompañan
+emocionalmente y favorecen un equilibrio saludable entre la vida personal y laboral. -->
+<!-- ###### Herramientas que sostienen procesos:
+
+En cada propuesta incluimos materiales y recursos que colaboran a sostener los procesos más allá de cada encuentro, permitiendo integrar lo trabajado a la vida cotidiana. -->
 
                 </section>
             </article>
@@ -254,24 +663,88 @@
         </div>
     
         <div class='post-holder'>
-            <article id='sobre-nosotras' class='post  '>
+            <article id='qué-nos-diferencia' class='post  '>
                 <header class="post-header">
-                    <h2 class="post-title">Sobre nosotras</h2>
+                    <h2 class="post-title">¿Qué nos diferencia?</h2>
                 </header>
                 <section class="post-content">
-                    <p><img src="images/nosotras.png" alt="Nosotras"></p>
-<p>Somos Gaby y Carol.
-Somos hermanas, madres y psicólogas.</p>
-<p>Gaby mamá de Juan y Nico.
-Caro mamá de Manu.</p>
-<p>En nuestras historias de vida la hermandad siempre ha sido vivida como compañía, tanto así que tuvimos la fortuna de vivir gestaciones casi paralelas, sólo con un mes de distancia.
-Atravesar nuestras gestaciones en paralelo, nos hizo sentir sostenidas, nos dio tranquilidad, nos ayudó a identificar cuándo pedir ayuda y saber a quién acudir. Fue un ida y vuelta de compartir experiencias, sentires, dudas e información. Nos hizo todo más liviano, más disfrutable y ameno.</p>
-<p>A lo que sin duda se sumo también los conocimientos que cada una traía de su profesión, donde si bien somos psicólogas cada una tiene trayectorias distintas y nos sentimos enriquecidas por la mirada y compañía de la otra, que siempre tenía la palabra justa o te ayudaba a ver la situación desde otra perspectiva.</p>
-<p>Gaby siempre ligada al arte, su don natural. Entre el arte y la psicología enfocada siempre en los procesos de salud y bienestar, en contribuir para que las personas se sientan bien consigo y su entorno. Que encuentren su equilibro entre lo imaginario y lo real.</p>
-<p>Caro, la narradora de historias, soñadora, que siempre está gestando proyectos o ideas. Enfocada en la psicología y la educación. En las infancias y la protección de derechos. Ahora también terapeuta floral.</p>
-<p>Así cada una siempre desde nuestras singularidades y caminos hemos encontrado las formas de estar unidas, y hoy, más que nunca, este proyecto nos encuentra así; juntas, felices, satisfechas, ansiosas y con muchas ganas de empezar a formar tribu.</p>
-<p>De poder compartir nuestras experiencias y saberes, para poder habitar en conjunto un espacio de encuentro y acompañamiento, que brinde información y que sea sostén y red de compañía.</p>
-<p>Un ciclo lunar de gestaciones y tribu.</p>
+                    <div class="two-col">
+  <div class="col">
+    <h5>INTEGRALIDAD</h5>
+    <p>Entender a la mujer en su totalidad biológica, emocional, social y vincular. Ninguna dimensión por encima de otra, ninguna aislada.</p>
+    </div>
+    <div class="col">
+        <h5>EMPATÍA</h5>
+        <p>Ponerse en el lugar de la mujer gestante o puérpera sin juicio, sin minimizar, sin corregir. Escuchar en profundidad, validar y sostener.</p>
+    </div>
+    <div class="col">
+        <h5>HONESTIDAD</h5>
+        <p>Habilitar la vulnerabilidad como un acto de salud y crecimiento, donde se pueda nombrar lo real y lo complejo, todo eso que no tiene manual. Honrar la maternidad, sin idealizarla.</p>
+    </div>
+</div>
+<div class="two-col">
+  <div class="col">
+        <h5>PRESENCIA</h5>
+        <p>Promover una gestación consciente y saludable, cuidarse mientras estás cuidando.Sin culpa, respetando los ritmos, dando lugar a cada vivencia.</p>
+    </div>
+    <div class="col">
+        <h5>TRIBU</h5>
+        <p>Construir vínculos de sostén entre mujeres, parejas y profesionales. Crear lugares donde no hay competencia, aciertos ni errores: sólo acompañamiento mutuo.</p>
+    </div>
+    <div class="col">
+    </div>
+</div>
+<!-- INTEGRALIDAD
+
+Entender a la mujer en su totalidad biológica, emocional, social y vincular. Ninguna dimensión por encima de otra, ninguna aislada.
+
+EMPATÍA
+
+Ponerse en el lugar de la mujer gestante o puérpera sin juicio, sin minimizar, sin corregir. Escuchar en profundidad, validar y sostener.
+
+HONESTIDAD
+
+Habilitar la vulnerabilidad como un acto de salud y crecimiento, donde se pueda nombrar lo real y lo complejo, todo eso que no tiene manual. Honrar la maternidad, sin idealizarla.
+
+PRESENCIA
+
+Promover una gestación consciente y saludable, cuidarse mientras estás cuidando.Sin culpa, respetando los
+ritmos, dando lugar a cada vivencia.
+
+TRIBU
+
+Construir vínculos de sostén entre mujeres, parejas y profesionales. Crear lugares donde no hay competencia, aciertos ni errores: sólo acompañamiento mutuo. -->
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='lo-que-dicen-de-nosotras' class='post  '>
+                <header class="post-header">
+                    <h2 class="post-title">Lo que dicen de nosotras</h2>
+                </header>
+                <section class="post-content">
+                    <div class="tjs" data-interval="6000" aria-label="Testimonios">
+  <div class="tjs-viewport">
+    <div class="tjs-track">
+      <p class="tjs-item">“...Fue una experiencia muy enriquecedora para el corazón y para el alma...Poder compartir con total sinceridad y sentir que no somos las únicas que pasamos por miedos, incertidumbres, ansiedades y todas las emociones que puedan imaginar...que el lado B de la gestación y/o maternidad también existe y esta bien... 
+      Sentir la empatia de Gaby, Caro y todas las que compartimos ese momento....fue un antes y un después. También hicimos unos ejercicios de respiración y conexión con nosotras y nuestros bebés muy lindos. Y hasta unos ejercicios para ayudar en el trabajo de parto...
+      Sin duda una experiencia 100% recomendable. Amor por donde lo mires.” (Leti)</p>
+      <p class="tjs-item">“Llegué a Umami por una amiga partera, con muchos miedos y culpas cursando mi segundo embarazo. 
+      Me hicieron sentir que no estaba sola y que no era la única. 
+      Gracias por la contención y esos abrazos apretados.” (Ana)</p>
+      <p class="tjs-item">“... Crearon un espacio donde con otras "mums to be" nos sentimos cómoda en compartir miedos, emociones y sensaciones. Nos escucharon y nos acompañaron en esta etapa tan bella como tan desconocida que es la gestación, la cual seguramente fue mas consciente gracias a ustedes!” (Angie)</p>
+      <p class="tjs-item">“Gracias por la hermosa jornada en el mes de la salud mental. El círculo de mujeres gestantes fue una experiencia súper valiosa para mí. Poder compartir la gestación con otras mujeres que viven cosas tan parecidas me hizo sentir acompañada, contenida y sin juicios.
+      Me sentí muy cómoda, escuchada y guiada con mucho cariño y profesionalismo.
+      Ojalá estos encuentros se sigan dando, realmente los recomiendo.
+      ¡Gracias por generar este espacio tan lindo!” (Karen)</p>
+      <p class="tjs-item">“Participé hace unos meses en un encuentro de mamás gestantes, orientado por el equipo de Umami. En ese momento cursaba la semana 17, con algunos miedos y muchas interrogantes. La calidez del espacio promovida por las facilitadoras hizo que fuera una experiencia muy disfrutable que me permitió aprender, calmar un poco la ansiedad y confiar en el proceso. 
+      Hoy, embarazada de 37 semanas, muy próxima a encontrarme con mi bebé fuera del útero, agradezco haber tomado la iniciativa de participar de tal rico taller” (Nati)</p>
+    </div>
+  </div>
+  <div class="tjs-bullets" aria-label="Navegación de testimonios"></div>
+</div>
 
                 </section>
             </article>
@@ -284,9 +757,13 @@ Atravesar nuestras gestaciones en paralelo, nos hizo sentir sostenidas, nos dio 
                     <h2 class="post-title">Contacto</h2>
                 </header>
                 <section class="post-content">
-                    <p>Por mas información e inscripciones a los encuentros escribenos!!</p>
+                    <div style="line-height: 1;">
 <p><i class="fa fa-envelope"></i> <a href="mailto:umamitribu@gmail.com">umamitribu@gmail.com</a></p>
 <p><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/umami.uy/">umami.uy</a></p>
+</div>
+<div style="text-align: center;">
+UMAMI - El sabor de las maternidades reales.
+</div>
 
                 </section>
             </article>
@@ -294,19 +771,86 @@ Atravesar nuestras gestaciones en paralelo, nos hizo sentir sostenidas, nos dio 
         </div>
     
 </main>
+
+<script>
+(function () {
+  function initTestimonials(root) {
+    const track = root.querySelector(".tjs-track");
+    const items = Array.from(root.querySelectorAll(".tjs-item"));
+    const bulletsWrap = root.querySelector(".tjs-bullets");
+    if (!track || items.length === 0 || !bulletsWrap) return;
+
+    const interval = parseInt(root.getAttribute("data-interval") || "6000", 10);
+    let idx = 0;
+    let timer = null;
+
+    
+    bulletsWrap.innerHTML = "";
+    const bullets = items.map((_, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-label", "Ir al testimonio " + (i + 1));
+      b.addEventListener("click", () => go(i, true));
+      bulletsWrap.appendChild(b);
+      return b;
+    });
+
+    function render() {
+      track.style.transform = "translateX(" + (-idx * 100) + "%)";
+      bullets.forEach((b, i) => b.setAttribute("aria-current", i === idx ? "true" : "false"));
+    }
+
+    function go(i, userAction) {
+      idx = (i + items.length) % items.length;
+      render();
+      if (userAction) restart();
+    }
+
+    function next() { go(idx + 1, false); }
+
+    function start() {
+      
+      if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      stop();
+      timer = window.setInterval(next, interval);
+    }
+
+    function stop() {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    }
+
+    function restart() {
+      stop();
+      start();
+    }
+
+    
+    root.addEventListener("mouseenter", stop);
+    root.addEventListener("mouseleave", start);
+
+    
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) stop();
+      else start();
+    });
+
+    
+    render();
+    start();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".tjs").forEach(initTestimonials);
+  });
+})();
+</script>
+
+
 <footer class="site-footer">
   <div class="inner">
     
       <section class="copyright">© umami.uy</section>
-
-
-    <section></section>
-    
-      <section>
-        <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
-        built with ♥️ by
-        <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
-      </section>
 
   </div>
 </footer>

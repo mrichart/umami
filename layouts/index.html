@@ -20,10 +20,24 @@
     </label>
 
     <div class="site-head-menu">
-        {{ range where $sections ".Params.header_menu" "eq" true }}
-        <a class="btn site-menu" data-title-anchor="{{ anchorize .Title }}">
-            {{ .Title }}
+        {{ $menuSections := where $sections ".Params.header_menu" "eq" true }}
+
+        {{ range $index, $section := $menuSections }}
+
+        <a class="btn site-menu"
+            data-title-anchor="{{ anchorize $section.Title }}">
+            {{ $section.Title }}
         </a>
+
+        {{ if eq $index 2 }}  <!-- change this number to control position -->
+            <a class="btn" 
+            href="https://medium.com/@umamitribu"
+            target="_blank"
+            rel="noopener noreferrer">
+            Blog
+            </a>
+        {{ end }}
+
         {{ end }}
     </div>
 
