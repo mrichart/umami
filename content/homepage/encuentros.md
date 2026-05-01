@@ -29,7 +29,7 @@ header_menu: true
     Conoce más sobre este encuentro
   </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn" href="http://wa.me/59895465615">
+  <a class="btn" href="http://wa.me/59824191882">
     Consultas e inscripciones
   </a>
 </div>
