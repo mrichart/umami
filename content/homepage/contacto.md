@@ -6,11 +6,11 @@ header_menu: true
 
 <div style="line-height: 1;">
 
-{{<icon class="fa fa-whatsapp">}}&nbsp;[Escríbenos por WhatsApp](https://wa.me/+59895465615)
+{{<icon class="fa fa-whatsapp">}}&nbsp;[Escríbenos por WhatsApp](https://wa.me/59824191882)
 
 {{<icon class="fa fa-envelope">}}&nbsp;[umamitribu@gmail.com](mailto:umamitribu@gmail.com)
 
-{{<icon class="fa fa-instagram">}}&nbsp;[uy.umami](https://www.instagram.com/uy.umami/)
+{{<icon class="fa fa-instagram">}}&nbsp;[umami.uy](https://www.instagram.com/umami.uy/)
 
 </div>
 

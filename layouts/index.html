@@ -22,21 +22,21 @@
     <div class="site-head-menu">
         {{ $menuSections := where $sections ".Params.header_menu" "eq" true }}
 
-        {{ range $index, $section := $menuSections }}
+        {{ range $section := $menuSections }}
 
-        <a class="btn site-menu"
-            data-title-anchor="{{ anchorize $section.Title }}">
-            {{ $section.Title }}
-        </a>
-
-        {{ if eq $index 3 }}  <!-- change this number to control position -->
-            <a class="btn" 
+        {{ if eq $section.Title "Contacto" }}  <!-- Blog link always sits right before Contacto -->
+            <a class="btn"
             href="https://medium.com/@umamitribu"
             target="_blank"
             rel="noopener noreferrer">
             Blog
             </a>
         {{ end }}
+
+        <a class="btn site-menu"
+            data-title-anchor="{{ anchorize $section.Title }}">
+            {{ $section.Title }}
+        </a>
 
         {{ end }}
     </div>

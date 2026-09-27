@@ -1,0 +1,5 @@
+.hugo_build.lock
+/public/
+/plain-html-site/
+/resources/
+*.zip
